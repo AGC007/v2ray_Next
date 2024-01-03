@@ -1,0 +1,46 @@
+body {
+  background: hsl(240 10% 3.9%);
+  color: hsl(0 0% 98%);
+}
+
+main {
+  padding: 4px;
+  max-width: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+form > input {
+  all: unset;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid hsl(40 5.9% 10%);
+  background: transparent;
+}
+
+button {
+  all: unset;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: hsl(40 5.9% 10%);
+  color: hsl(0 0% 98%);
+}
+
+section {
+  display: none;
+  margin-top: 20px;
+}
+
+section > div {
+  width: 400px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+}
