@@ -7,7 +7,7 @@ const button = document.getElementById("copy-btn");
 
 let newConfigV2ray;
 const NewDomainAndConfig =
-  "NexTLS-Node.AGC007.Link:2083?type=ws&path=%2F&host=NexTLS.AGC007.Link&security=tls&fp=chrome&sni=NexTLS.AGC007.Link";
+  "NexTLS-Node.RexNetwork.SBS:2083?type=ws&path=%2F&host=NexTLS.RexNetwork.SBS&security=tls&fp=chrome&sni=NexTLS.RexNetwork.SBS";
 
 input.addEventListener("keyup", (e) => {
   if (e.target.value === "") {
